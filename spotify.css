@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+
+body {
+    /* background-color: rgb(20 20 20 / 76%); */
+    background-image: url(background.jpg);
+    background-size: 1600px 1150px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* navbar  */
+.brand img {
+    display: flex;
+    align-items: center;
+    margin-top: -2px;
+    margin-left: 14px;
+    padding: 0px 5px;
+    height: 60px;
+    width: 60px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    padding: 9px 20px;
+    font-size: 36px;
+}
+
+nav {
+    margin-left: 8px;
+    margin-top: 20px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 73px;
+    width: 1502px;
+    border: 2px solid black;
+    border-radius: 167px 39px 167px 40px;
+    background: black;
+    color: whitesmoke;
+}
+
+.more {
+    display: flex;
+    align-items: center;
+    margin-left: 580px;
+    padding: 0px 40px;
+    cursor: pointer;
+    font-size: 26px;
+    color: white;
+}
+
+.p:hover {
+
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 12px;
+    color: black;
+
+}
+
+nav ul li {
+    padding: 0px 12px;
+    cursor: pointer;
+}
+
+/* search bar  */
+
+.search {
+    position: relative;
+    display: flex;
+    opacity: 0.9;
+    height: 0px;
+    margin: 9px 257px;
+    padding: 17px 32px;
+    width: 164px;
+    align-items: center;
+    text-align: center;
+    border: 0px solid black;
+    border-radius: 22px;
+    background: black;
+    color: white;
+    cursor: pointer;
+    flex-wrap: nowrap;
+}
+
+.search input {
+    width: 390px;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    color: white;
+}
+
+.icon {
+    margin-left: 165px;
+}
+
+.search i {
+    color: white;
+    font-weight: bolder;
+}
+
+.search i:hover {
+    color: rgb(34, 11, 115);
+    font-weight: bolder;
+}
+
+/* about portion */
+.about {
+    position: relative;
+    top: -46px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    list-style-type: none;
+    margin-left: 9px;
+    justify-content: center;
+    width: 225px;
+    height: 671px;
+    border-radius: 12px;
+    border: 2px solid black;
+    background: black;
+    cursor: pointer;
+}
+
+.about i {
+    position: sticky;
+    margin-right: 25px;
+}
+
+.home {
+    font-size: 22px;
+    padding: 12px 22px;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    list-style-type: none;
+}
+
+.home:hover {
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 12px;
+    color: black;
+}
+
+.trend {
+
+    font-size: 22px;
+    padding: 12px 22px;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    list-style-type: none;
+}
+
+.trend:hover {
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 12px;
+    color: black;
+}
+
+.library {
+    font-size: 22px;
+    padding: 12px 22px;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    list-style-type: none;
+}
+
+.library:hover {
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 12px;
+    color: black;
+}
+
+.sub {
+    font-size: 22px;
+    padding: 12px 22px;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    list-style-type: none;
+}
+
+.sub:hover {
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 12px;
+    color: black;
+}
+
+.later {
+    font-size: 22px;
+    padding: 12px 22px;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    list-style-type: none;
+}
+
+.later:hover {
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 12px;
+    color: black;
+}
+
+.upload {
+    font-size: 22px;
+    padding: 12px 22px;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    list-style-type: none;
+}
+
+.upload:hover {
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 12px;
+    color: black;
+}
+
+.download {
+    font-size: 22px;
+    padding: 12px 22px;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    list-style-type: none;
+}
+
+.download:hover {
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 12px;
+    color: black;
+}
+
+.setting {
+    font-size: 22px;
+    padding: 12px 22px;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    list-style-type: none;
+}
+
+.setting:hover {
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 12px;
+    color: black;
+}
+
+.help {
+    font-size: 22px;
+    padding: 12px 22px;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    list-style-type: none;
+
+}
+
+.help:hover {
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 12px;
+    color: black;
+}
+
+.explore {
+    font-size: 22px;
+    padding: 12px 22px;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    list-style-type: none;
+}
+
+.explore:hover {
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 12px;
+    color: black;
+}
+
+.feed {
+    font-size: 22px;
+    padding: 12px 22px;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    list-style-type: none;
+}
+
+.feed:hover {
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 12px;
+    color: black;
+}
+
+.history {
+    font-size: 22px;
+    padding: 12px 22px;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    list-style-type: none;
+}
+
+.history:hover {
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 12px;
+    color: black;
+}
+
+/* playbar  */
+.playbar {
+    position: fixed;
+    bottom: 20px;
+    left: 256px;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 23px;
+    height: 90px;
+}
+
+#progressBar {
+    width: 77vw;
+    cursor: pointer;
+    margin: 10px 30px;
+}
+
+.playbaricons {
+    display: flex;
+    position: relative;
+    left: -5%;
+    color: white;
+}
+.playbaricons :hover {
+    cursor: pointer;
+}
+
+.playbaricons i {
+    padding: 0px 12px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#range {
+    width: 94%;
+    margin: 12px 24px;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#gif {
+    position: relative;
+    left: -36%;
+    top: 0px;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+
+}
+
+
+/* songs  */
+.song {
+    margin-right: 122px;
+    background: transparent;
+    display: grid;
+    margin-top: -43%;
+    margin-left: 18%;
+    margin-bottom: 120px;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: repeat(5, auto);
+    gap: 1.8rem;
+    width: 78%;
+}
+
+.song img {
+    width: 201px;
+    height: 176px;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.song img:hover {
+    transform: perspective(900px) translateY(-5%) rotatey(20deg) translateZ(0);
+    box-shadow: rgb(238 161 161 / 31%) 5px 5px 5px 5px;
+    filter: brightness(1);
+    transform: translate3d(0%, -25px, 50px);
+  }
+.song h1{
+    display: none;
+    color: antiquewhite;
+    font-size: 80px;
+}

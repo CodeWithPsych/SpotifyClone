@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <link rel="stylesheet" href="spotify.css" />
+    <script
+      src="https://kit.fontawesome.com/fdae18ca78.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div id="error-message" style="display: none">
+      <p>
+        This web not supported on this device. Please switch to a other device
+        to access the content.
+      </p>
+    </div>
+    <div class="top">
+      <!-- navbar -->
+      <nav>
+        <ul>
+          <li class="brand"><img src="logo.png" />Spotify</li>
+          <div class="more">
+            <li id="a" class="p">Premium</li>
+            <li id="b" class="p">Support</li>
+            <li id="c" class="p">About</li>
+            <li id="d" class="p">Download</li>
+            <li>|</li>
+            <li id="e" class="p">Sign up</li>
+          </div>
+        </ul>
+      </nav>
+
+      <!-- searchbar -->
+      <div class="search">
+        <input id="search" type="text" placeholder="Search Here...." />
+        <a href="#">
+          <i id="enter" class="fa-solid fa-magnifying-glass fa-shake"></i>
+        </a>
+      </div>
+
+      <!-- side portion -->
+      <div class="about">
+        <ul>
+          <div class="home">
+            <a href="#">
+              <i class="fa-solid fa-house"></i>
+            </a>
+            <li>Home</li>
+          </div>
+
+          <div class="trend">
+            <a href="#">
+              <i class="fa-solid fa-arrow-trend-up"></i>
+            </a>
+            <li>Trending</li>
+          </div>
+
+          <div class="library">
+            <a href="#">
+              <i class="fa-solid fa-book-open"></i>
+            </a>
+            <li>Library</li>
+          </div>
+
+          <div class="history">
+            <a href="#">
+              <i class="fa-solid fa-arrow-rotate-left"></i>
+            </a>
+            <li>History</li>
+          </div>
+
+          <div class="sub">
+            <a href="#">
+              <i class="fa-solid fa-bell"></i>
+            </a>
+            <li>Subscription</li>
+          </div>
+
+          <div class="later">
+            <a href="#">
+              <i class="fa-solid fa-arrow-up-wide-short"></i>
+            </a>
+            <li>Listen Later</li>
+          </div>
+
+          <div class="upload">
+            <a href="#">
+              <i class="fa-solid fa-arrow-up"></i>
+            </a>
+            <li>Uploads</li>
+          </div>
+
+          <div class="download">
+            <a href="#">
+              <i class="fa-solid fa-arrow-down"></i>
+            </a>
+            <li>Downloads</li>
+          </div>
+
+          <div class="setting">
+            <a href="#">
+              <i class="fa-solid fa-gear"></i>
+            </a>
+            <li>Settings</li>
+          </div>
+
+          <div class="help">
+            <a href="#">
+              <i class="fa-solid fa-question"></i>
+            </a>
+            <li>Help</li>
+          </div>
+
+          <div class="explore">
+            <a href="#">
+              <i class="fa-solid fa-bomb"></i>
+            </a>
+            <li>Explore</li>
+          </div>
+
+          <div class="feed">
+            <a href="#">
+              <i class="fa-regular fa-comment"></i>
+            </a>
+            <li>Feedback</li>
+          </div>
+        </ul>
+      </div>
+
+      <!-- playbar -->
+      <div class="playbar">
+        <input
+          type="range"
+          name="range"
+          value="0"
+          id="progressBar"
+          min="0"
+          max="100"
+        />
+        <div class="bottom">
+          <div id="gif">
+            <img src="playing.gif" width="150px" />
+          </div>
+          <div class="playbaricons">
+            <i
+              class="fa-solid fa-2x fa-backward"
+              id="previous"
+              style="color: #ffffff"
+            ></i>
+            <i
+              class="fa-solid fa-2x fa-play-circle"
+              id="masterButton"
+              style="color: #ffffff"
+            ></i>
+            <i
+              class="fa-solid fa-2x fa-forward"
+              id="next"
+              style="color: #ffffff"
+            ></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- songs -->
+      <div class="song" data-song-id="1">
+        <h1 id="not_found">Song Not Found!</h1>
+        <img src="1.jpg" id="1" />
+        <img src="2.jpg" id="2" />
+        <img src="3.jpg" id="3" />
+        <img src="4.jpg" id="4" />
+        <img src="5.jpg" id="5" />
+        <img src="6.jpg" id="6" />
+        <img src="7.jpg" id="7" />
+        <img src="8.jpg" id="8" />
+        <img src="9.jpg" id="9" />
+        <img src="10.jpg" id="10" />
+        <img src="11.jpg" id="11" />
+        <img src="12.jpg" id="12" />
+        <img src="13.jpg" id="13" />
+      </div>
+    </div>
+    <script src="spotify.js"></script>
+  </body>
+</html>
